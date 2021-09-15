@@ -41,7 +41,7 @@ app.use(
    auth({
       secret: SESSION_SECRET,
       auth0Logout: true,
-      baseURL: APP_URL,
+      baseURL: dev-2u6w2lkr.us.auth0.com,
    })
 );
 
